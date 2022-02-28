@@ -1,0 +1,169 @@
+.album-data {
+     width: 100%;
+ }
+
+.album-data .title{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #999;
+}
+
+.album-data .auth{
+    width: 100%;
+    height: 60px;
+    background: #fff0bc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.album-data .auth .auth-text{
+    font-size: 14px;
+    color: #7c5525;
+    margin-left: 30px;
+}
+
+.album-data .auth .auth-btn{
+    padding: 0 18px;
+    height: 40px;
+    background: #fffcf2;
+    color: #7c5525;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    line-height: 40px;
+    margin-right: 10px;
+}
+
+.album-data .card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.album-data .card .card-item{
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background: #fff;
+    flex: 1;
+}
+
+.album-data .card .card-title{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.album-data .card .card-title img{
+    width: 40px;
+    margin-left: 20px;
+}
+
+.album-data .card .card-item .card-content{
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.album-data .card .card-item .card-content .card-msg {
+    font-size: 14px;
+    color: #bfbfbf;
+    text-align: center;
+    margin-top: 17px;
+}
+
+.album-data .notice{
+    width: 100%;
+    background: #fff;
+    padding: 20px 30px 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.album-data .notice .notice-title{
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.album-data .notice .notice-title .notice-title-msg{
+    font-size: 14px;
+    font-weight: 400;
+    color: #bfbfbf;
+    margin-left: 6px;
+}
+
+.album-data .notice .notice-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.album-data .notice .notice-item .notice-content {
+    padding-left: 18px;
+    font-size: 14px;
+    position: relative;
+    color: #333;
+}
+
+.album-data .notice .notice-item .notice-content .blue{
+    font-weight: 600;
+    color: #2b9ff8;
+}
+
+a {
+    color: #2d8cf0;
+    background: 0 0;
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer;
+    transition: color .2s ease;
+}
+
+.album-data .notice .notice-item:first-child .notice-content:after {
+    background: #f6222d;
+}
+ .album-data .notice .notice-item .notice-content:after {
+     content: "";
+     display: block;
+     width: 6px;
+     height: 6px;
+     border-radius: 1px;
+     background: #ccc;
+     position: absolute;
+     left: 0;
+     top: 50%;
+     transform: translateY(-50%);
+ }
+
+.album-data .content{
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    min-height: 600px;
+}
+
+.nodata{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.nodata .pic{
+    display: block;
+    height: 200px;
+    margin: auto;
+}

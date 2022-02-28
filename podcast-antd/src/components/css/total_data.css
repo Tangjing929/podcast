@@ -1,0 +1,177 @@
+.album-data{
+    width: 100%;
+}
+
+/*头部*/
+.album-data .menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item{
+    width: 200px;
+    border-radius: 10px;
+    background: #fff;
+    padding: 0 20px 10px;
+}
+
+.menu-item img{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 20px auto 0;
+}
+
+.menu-item .msg {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-item .num {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 6px;
+    height: 27px;
+    line-height: 27px;
+    margin-bottom: 12px;
+}
+
+.menu-item .item-list{
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-item .item-list .red{
+    color: #ff585f;
+}
+.menu-item .item-list .icon{
+    font-size: 16px;
+}
+
+.ivu-icon-md-arrow-dropup:before {
+    content: "\f343";
+}
+
+.menu-item .item-list .red{
+    color: #ff585f;
+}
+.menu-item .item-list .icon{
+    font-size: 16px;
+}
+.item-list-num .ivu-icon {
+    display: inline-block;
+    font-family: Ionicons;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: middle;
+}
+
+/*播放量*/
+.album-data .map {
+    width: 100%;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 10px;
+    padding-top: 1px;
+}
+
+.album-data .map .title{
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 0 30px;
+    width: 200px;
+}
+
+ .album-data .title {
+     margin-bottom: 10px;
+     font-size: 14px;
+     color: #999;
+ }
+
+.time{
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+    font-size: 16px;
+}
+
+.time .btn{
+    width: 80px;
+    height: 40px;
+    line-height: 36px;
+    margin-left: 20px;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid #dcdee2;
+}
+
+.ivu-btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 5px 15px 6px;
+    font-size: 12px;
+    border-radius: 4px;
+    transition: color .2s linear,background-color .2s linear,border .2s linear,box-shadow .2s linear;
+    color: #515a6e;
+    background-color: #fff;
+    border: 1px solid #dcdee2;
+}
+
+.nodata .msg{
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.nodata button{
+    width: 220px;
+    height: 60px;
+    border-radius: 6px;
+    background: linear-gradient(
+            344deg
+            ,#2b9ff8,#54b5ff);
+    color: #fff;
+    font-size: 20px;
+    font-family: SourceHanSansSC-Bold,SourceHanSansSC;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

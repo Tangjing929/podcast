@@ -1,0 +1,48 @@
+.ant-form{
+    width: 500px;
+}
+
+.ant-form-item{
+    margin-bottom: 35px;
+}
+
+.ant-form-item-label > label{
+    font-size: 16px;
+}
+
+.add{
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.add:before{
+    content: "";
+    display: block;
+    width: 13px;
+    height: 2px;
+    border-radius: 2px;
+    background: #ccc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.add:after{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 12px;
+    border-radius: 2px;
+    background: #ccc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

@@ -1,0 +1,101 @@
+
+Layout{
+    theme:light
+}
+
+.header{
+    background-color: white;
+    width: 100%;
+}
+
+site-layout-background{
+    background-color: white;
+}
+.ant-layout-sider {
+    position: relative;
+    min-width: 0;
+    background:none;
+    transition: all 0.2s;
+    height: 80%;
+}
+
+.ant-btn-round.ant-btn-lg {
+    height: 60px;
+    padding: 10px 45px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100%;
+    background: linear-gradient(343deg,#2b9ff8,#54b5ff);
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+div.photo{
+    margin: 34px auto 7px;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+}
+
+ant-image-img{
+    width: 60px;
+    height: 60px;
+}
+
+div.name{
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+.ant-progress{
+    box-sizing: border-box;
+    padding: 0 40px;
+    color: rgba(0, 0, 0, 0.85);
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: 'tnum', "tnum";
+    display: inline-block;
+}
+
+
+/*footer*/
+.layout-footer-center {
+    padding: 24px 0;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    color: #999;
+}
+.ivu-layout-footer {
+    background: #f5f7f9;
+    padding: 24px 50px;
+    color: #515a6e;
+    font-size: 14px;
+}
+.ivu-layout-footer, .ivu-layout-header {
+    flex: 0 0 auto;
+}
+
+.feedback, .layout-footer-center .site {
+    cursor: pointer;
+}
+
+.ant-layout-footer{
+    margin-top: -100px;
+}

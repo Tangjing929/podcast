@@ -1,0 +1,66 @@
+.content-main{
+    margin-left: 20px;
+    width: 900px
+}
+
+.page{
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 70px;
+    margin: 0 auto;
+}
+.page-title{
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    line-height: 20px;
+    margin-left: -700px;
+    margin-top: 30px;
+}
+
+.page-form{
+    width: 60%;
+    margin: 10px auto;
+}
+
+.upload{
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    margin-left: 70px;
+}
+
+.prompts {
+    position: absolute;
+    width: 100%;
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
+    bottom: -13px;
+    background: rgba(0, 0, 0, .5);
+    z-index: 10;
+    color: #fff;
+}
+
+.msg1{
+    font-size: 14px;
+    color: #999;
+    line-height: 20px;
+    margin-top: 6px;
+    margin-left: -150px;
+}
+.ant-upload-picture-card-wrapper{
+    height: 116px;
+    width: 100px;
+}
+.ant-image{
+    bottom: -20px;
+}
+.ant-image-img{
+    width: 100px;
+    height: 120px;
+}

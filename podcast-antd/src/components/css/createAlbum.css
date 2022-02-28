@@ -1,0 +1,39 @@
+.createAlbum-width{
+    width: 150px;
+    margin-left: 50px;
+}
+.sort{
+    text-align: left;
+    float: left;
+}
+.radio{
+    float: left;
+}
+.picture{
+    /*border-style: dashed ;*/
+    /*background: rgb(229, 226, 226);*/
+    width:200px;
+    height:200px;
+    float:right;
+    margin:37px 10px;
+    display:inline-block
+}
+.ant-upload.ant-upload-select-picture-card {
+    width: 184px;
+    height: 184px;
+}
+
+.createWords{
+    font-size:12px;
+    font-weight:400;
+    text-align: left;
+    color: #999;
+    line-height: 30px;
+}
+.contentbox{
+    /*height:1050px;*/
+    padding:24px;
+    margin:0;
+    background-color: white;
+    border-radius: 10px;
+}

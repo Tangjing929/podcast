@@ -1,0 +1,453 @@
+
+.content-right{
+    width:1000px ;
+    height:1200px;
+    textAlign:center;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item1{
+    border-radius: 10px;
+    background: #fff;
+    padding: 0 20px 10px;
+    font-size: 12px;
+    float: left;
+    margin: 0 32px 0 25px;
+}
+
+.menu-item2{
+    border-radius: 10px;
+    background: #fff;
+    padding: 0 20px 10px;
+    font-size: 12px;
+    float: left;
+    margin: 0 25px 0 0;
+}
+
+.menu-item3{
+    border-radius: 10px;
+    background: #fff;
+    padding: 0 20px 10px;
+    font-size: 12px;
+    float: right;
+}
+
+.program{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    border-radius: 10px;
+    background: #fff;
+    margin-left: 20px;
+}
+
+.title{
+    width: 420px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.title-name{
+    font-weight: bolder;
+    font-size: 16px;
+    color: #333;
+    margin-left: -200px;
+}
+
+.content p{
+    color: #999;
+    font-size: 14px;
+}
+
+.box .title{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tab{
+    display: flex;
+    position: relative;
+    margin: 0 30px;
+}
+
+.tab .tab-content{
+    display: flex;
+    align-items: center;
+    position: relative;
+    /*overflow-x: auto;*/
+}
+
+.tab .tab-menu.active {
+    color: #333;
+    font-family: PingFangSC-Semibold,PingFang SC;
+    font-weight: 600;
+}
+
+.tab .tab-menu{
+    height: 100%;
+    font-size: 14px;
+    color: #999;
+    position: relative;
+    margin-right: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex: none;
+}
+
+.box .content{
+    height: calc(100% - 60px);
+    overflow-y: auto;
+}
+
+.content .journalism{
+    text-align: left;
+    display: flex;
+    padding-left: 49px;
+    padding-right: 30px;
+    position: relative;
+    height: 40px;
+    margin-bottom: 6px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.content .journalism .journalism-name{
+    font-size: 14px;
+    color: #333;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    width: calc(100% - 70px);
+}
+
+.content .journalism .journalism-date{
+    width: 75px;
+    font-size: 12px;
+    color: #999;
+    flex: none;
+    margin-left: 10px;
+    text-align: right;
+}
+
+.content .journalism:first-child:after {
+    background: #f6222d;
+}
+.content .journalism:after {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    background: #ccc;
+    position: absolute;
+    left: 30px;
+    top: 18px;
+}
+
+/*创作者学院*/
+.academy{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box .title {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box .title .title-name{
+    font-weight: bolder;
+    font-size: 16px;
+    color: #333;
+    margin-left: 30px;
+}
+
+.box .content{
+    height: calc(100% - 60px);
+    overflow-y: auto;
+}
+
+.university-pic{
+    width: calc(100% - 60px);
+    margin: 0 30px;
+    height: 100px;
+}
+
+.ivu-carousel-arrow.left {
+    left: 16px;
+}
+
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+}
+.ivu-carousel-arrow-hover {
+    display: inherit;
+    opacity: 0;
+}
+.ivu-carousel-arrow {
+    border: none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    transform: translateY(-50%);
+    transition: .2s;
+    background-color: rgba(31,45,61,.11);
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    font-family: inherit;
+    line-height: inherit;
+}
+
+.ivu-carousel-arrow>* {
+    vertical-align: baseline;
+}
+.ivu-icon {
+    display: inline-block;
+    font-family: Ionicons;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: middle;
+}
+
+.ivu-icon-ios-arrow-back:before {
+    content: "\f115";
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.ivu-carousel-list, .ivu-carousel-track {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.ivu-carousel-list {
+    margin: 0;
+    padding: 0;
+}
+.ivu-carousel-list, .ivu-carousel-track {
+    transform: translateZ(0);
+}
+
+.ivu-carousel-track.higher {
+    z-index: 2;
+    top: 0;
+}
+.ivu-carousel-track {
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+.ivu-carousel-list, .ivu-carousel-track {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.ivu-carousel-item {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    display: block;
+}
+
+a {
+    color: #2d8cf0;
+    background: 0 0;
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer;
+    transition: color .2s ease;
+}
+
+.university-pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+img {
+    border-style: none;
+}
+
+.ivu-carousel-arrow.right {
+    right: 16px;
+}
+
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+}
+.ivu-carousel-arrow-hover {
+    display: inherit;
+    opacity: 0;
+}
+
+.ivu-carousel-dots-inside {
+    display: block;
+    position: absolute;
+    bottom: 3px;
+}
+.ivu-carousel-dots {
+    z-index: 10;
+    display: none;
+    position: relative;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    height: 17px;
+}
+li, ul {
+    list-style: none;
+}
+
+.tab-content {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.content .tab {
+    margin: 0 30px;
+    border-bottom: 1px solid rgba(0,0,0,.08);
+    height: 59px;
+}
+
+.tab .tab-menu.active{
+    color: #333;
+    font-family: PingFangSC-Semibold,PingFang SC;
+    font-weight: 600;
+}
+
+.tab .tab-menu{
+    height: 100%;
+    font-size: 14px;
+    color: #999;
+    position: relative;
+    margin-right: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex: none;
+}
+
+.tab .tab-menu.active:after {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 2px;
+    background: linear-gradient(343deg,#2b9ff8,#54b5ff);
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    margin-left: -9px;
+}
+
+.tab .tab-menu:last-child {
+    margin-right: 0;
+}
+
+.university {
+    padding: 0 30px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.university .university-name {
+    font-size: 14px;
+    color: #333;
+}
+
+.text-overflow {
+    word-break: keep-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.university .university-date {
+    font-size: 12px;
+    color: #999;
+    flex: none;
+    margin-left: 20px;
+}
+
+.box .title {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box .title .title-name{
+    font-weight: bolder;
+    font-size: 16px;
+    color: #333;
+    margin-left: 30px;
+}
+
+.academy .hot-main {
+    height: 90%;
+    overflow: auto;
+}
+
+.academy .hot {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.academy .hot .hot-pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+}
+
+.hot .hot-info {
+    margin-left: 20px;
+    width: calc(100% - 70px);
+}
+
+.academy .hot .hot-info .hot-name {
+    font-size: 14px;
+    color: #333;
+    display: -webkit-box;
+    overflow: hidden;
+    text-align: left;
+}
+
+.academy .hot .hot-info .hot-msg {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #999;
+}

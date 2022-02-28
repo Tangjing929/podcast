@@ -1,0 +1,12 @@
+.contentbox{
+    height: 700px;
+    padding:24px;
+    margin:0;
+    background-color: white;
+    border-radius: 10px;
+}
+.ant-tabs-top > .ant-tabs-nav, .ant-tabs-bottom > .ant-tabs-nav,
+.ant-tabs-top > div > .ant-tabs-nav,
+.ant-tabs-bottom > div > .ant-tabs-nav{
+    margin: 0;
+}      /*tabs标签栏下边的一部分空格*/

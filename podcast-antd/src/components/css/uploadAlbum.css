@@ -1,0 +1,22 @@
+.uploadWord{
+    font-size: 12px;
+    /*font-weight: 300;*/
+    color: #999;
+    line-height: 22px;
+}
+.instruction{
+    width: 440px;
+    height: 140px;
+    margin:0 auto;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    text-align: left;
+    padding: 16px;
+}
+.contentbox{
+    height: 700px;
+    padding:24px;
+    margin:0;
+    background-color: white;
+    border-radius: 10px;
+}
